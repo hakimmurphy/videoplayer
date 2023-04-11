@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0, auto;
+}
+
+.container {
+    background-color: #939B62;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.title {
+    font-family: 'Neucha', cursive;
+    font-size: 4em;
+    margin-bottom: .3em;
+    color: #FF7B54;
+    text-shadow: .1em .1em .1em black;
+}
+
+#player {
+    margin-bottom: .5em;
+    border-radius: .5em;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    row-gap: .3em;
+}
+
+button {
+    background-color: #FFD56F;
+    width: 480px;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: .5em;
+    border: none;
+    color: #FF7B54;
+    font-family: 'Neucha', cursive;
+}
+
+button:hover {
+    background-color: #939B62;
+    cursor: pointer;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 844px) and (max-height: 390px) {
+    .container {
+        height: 170vh;
+    }
+}
+
+@media screen and (width < 832px) {
+    .container {
+        height: 100vh;
+    }
+
+    .title {
+        font-size: 3.4em;
+    }
+
+    #player {
+        width: 400px;
+    }
+
+    button {
+        width: 400px;
+    }
+}
+
+@media screen and (width < 708px) {
+    .title {
+        font-size: 2.9em;
+    }
+
+    #player {
+        width: 350px;
+    }
+
+    button {
+        width: 350px;
+    }
+}
+
+@media screen and (width < 608px) {
+    .title {
+        font-size: 2.5em;
+    }
+
+    #player {
+        width: 300px;
+    }
+
+    button {
+        width: 300px;
+    }
+}
+
+@media screen and (width < 523px) {
+    .title {
+        font-size: 2.1em;
+    }
+
+    #player {
+        width: 250px;
+    }
+
+    button {
+        width: 250px;
+    }
+}
+
+@media screen and (width < 442px) {
+    .title {
+        font-size: 1.7em;
+    }
+
+    #player {
+        width: 200px;
+    }
+
+    button {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .title {
+        font-size: 1.7em;
+    }
+
+    #player {
+        width: 200px;
+    }
+
+    button {
+        width: 200px;
+    }
+}
