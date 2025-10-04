@@ -68,7 +68,7 @@ python3 -m http.server 5500
 
 ---
 
-📄 License
+## 📄 License
 GPL-3.0.
 
 ---
